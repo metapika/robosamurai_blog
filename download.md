@@ -2,5 +2,6 @@
 layout: page
 title: "Download"
 ---
+![RoboSamurai](https://img.itch.zone/aW1nLzYyODQ5MzgucG5n/original/Zh8OKE.png)
 
-<a href="https://metapikachu.itch.io/robosamurai" target="_blank">Here you can download the RoboSamurai game</a> 
+[Here you can download the RoboSamurai game](https://metapikachu.itch.io/robosamurai)

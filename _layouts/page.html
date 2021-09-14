@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <class="post-title">in: {{ page.categories | escape }}</br>
+    <em> <h2 class="post-title">{{ page.title | escape }}</h2> </em>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
