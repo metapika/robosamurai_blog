@@ -1,6 +1,5 @@
 ---
 layout: page
-title: SyntaxTest
 ---
 
 # Markdown Cheat Sheet

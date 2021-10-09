@@ -1,16 +1,10 @@
 ---
-layout: page
-
-characterName: CharacterName
-characterAlias:
-characterOccupation:
+layout: wikiPage
+toc: true
 ---
-
-
 
 <style>
     table, th, td {
-        border: 1px solid black;
         border-collapse: collapse;
         align-self: right;
     }
@@ -20,15 +14,75 @@ characterOccupation:
     }
 </style>
 
-<table style="width:40%" align="right">
+<table class="character-info">
+    <tr>
+        <td colspan=2><img src="{{site. baseurl}}/{{ page.thumbnail }}" height=100 width=100 alt="Img not found?"> </th>
+    </tr>
+    <thead>
+        <tr>
+            <h3> <th colspan=2>{{ page.name }}</th> </h3> 
+        </tr>
+    </thead>
+    <tr>
+        <th colspan=2>Biographical Information</th>
+    </tr>
+    {%- if page.fullName -%}
+        <tr>
+            <th><b>Full Name</b></th>
+            <td>{{ page.fullName }}</td>
+        </tr>
+    {%- endif -%}
+    {%- if page.alias -%}
     <tr>
         <th><b>Alias</b></th>
-        <td>{{page.characterAlias}}</td>
+        <td>{{ page.alias }}</td>
     </tr>
+    {%- endif -%}
+    <tr>
+        <th colspan=2>Personal Description</th>
+    </tr>
+    {%- if page.gender -%}
+    <tr>
+        <th><b>Gender</b></th>
+        <td>{{ page.gender }}</td>
+    </tr>
+    {%- endif -%}
+    {%- if page.age -%}
+    <tr>
+        <th><b>Age</b></th>
+        <td>{{ page.age }}</td>
+    </tr>
+    {%- endif -%}
+    {%- if page.height -%}
+    <tr>
+        <th><b>Height</b></th>
+        <td>{{ page.height }}</td>
+    </tr>
+    {%- endif -%}
+    {%- if page.hairColor -%}
+    <tr>
+        <th><b>Hair Color</b></th>
+        <td>{{ page.hairColor }}</td>
+    </tr>
+    {%- endif -%}
+    {%- if page.eyeColor -%}
+    <tr>
+        <th><b>Eye Color</b></th>
+        <td>{{ page.eyeColor }}</td>
+    </tr>
+    {%- endif -%}
+    {%- if page.affiliation -%}
+    <tr>
+        <th><b>Affiliation</b></th>
+        <td>{{ page.affiliation }}</td>
+    </tr>
+    {%- endif -%}
+    {%- if page.occupation -%}
     <tr>
         <th><b>Occupation</b></th>
-        <td>{{page.characterOccupation}}</td>
+        <td>{{ page.occupation }}</td>
     </tr>
+    {%- endif -%}
 </table>
 
 {{ content }}

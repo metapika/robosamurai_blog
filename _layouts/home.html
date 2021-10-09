@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div class="home-content">
+    {{ content }}
+  </div>
+  <div class="home-box">
+    <div class="categoryIteration">
+        <h1 class="page-list-heading">Featured Articles</h1>
+          <div class="box-container">
+              <div class="article-container">
+                <a href="{{ site.characters[1].url }}"><img class="article-thumbnail" src="{{ site.characters[1].thumbnail }}" /></a>
+                <span class="caption">{{ site.characters[1].wikiPageTitle }}</span>
+              </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+  
+  <!-- {%- for page in site.characters -%}
+      <div id="smallContainer">
+          <div class="small">
+            <a href="{{ page.url }}"><img class="article-thumbnail" src="{{ page.thumbnail }}" /></a>
+            <span class="caption">{{ page.wikiPageTitle }}</span>
+          </div>     
+    </div>
+    <div class="box-container">
+      <a href="{{ page.url }}"><img class="article-thumbnail" src="{{ page.thumbnail }}" /></a>
+      <span class="caption">{{ page.wikiPageTitle }}</span>
+    </div>
+    {%- endfor -%} -->

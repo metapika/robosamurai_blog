@@ -1,7 +1,7 @@
 ---
 title:  "Basic Game Info"
 date:   2021-09-12 19:30 +0200
-categories: "post"
+categories: companies
 author: "Dev himself"
 permalink: "/game/base-info"
 ---

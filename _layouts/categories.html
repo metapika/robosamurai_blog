@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<div class="home-box">
+    <div class="categoryIteration">
+          <h1 class="page-list-heading">{{ page.list_title | default: "All Categories" }}</h1>
+          {%- for page in site.postCategories -%}
+            <div class="box-container">
+                <div class="article-container">
+                      <a href="{{ page.url }}"><img class="article-thumbnail" src="{{ page.thumbnail }}" /></a>
+                      <span class="caption">{{ page.categoryName }}</span>
+                </div>
+              <!-- <div class="box-container">
+                <a href="{{ page.url }}"><img class="article-thumbnail" src="{{ page.thumbnail }}" /></a>
+                <span class="caption">{{ page.wikiPageTitle }}</span>
+              </div> -->
+            {%- endfor -%}
+          </div>
+    </div>
+</div>

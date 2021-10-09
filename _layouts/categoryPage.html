@@ -1,0 +1,36 @@
+---
+layout: default
+
+categoryName:
+thumbnail:
+
+---
+
+<div class="categoryPage">
+  <header class="categoryPage-header">
+    <em><h2 class="categoryPage-title">Category: {{ page.categoryName | escape }}</h2></em>
+  </header>
+
+  <div class="categoryPage-content">
+    {{ content }}
+  </div>
+
+</div>
+
+<div class="home-box">
+  <div class="categoryIteration">
+        <h1 class="page-list-heading">Articles</h1>
+        {%- for page in site[page.catName] -%}
+          <div class="box-container">
+              <div class="article-container">
+                    <a href="{{ page.url }}"><img class="article-thumbnail" src="{{site.baseurl}}/{{ page.thumbnail }}" /></a>
+                    <span class="caption">{{ page.name }}</span>
+              </div>
+            <!-- <div class="box-container">
+              <a href="{{ page.url }}"><img class="article-thumbnail" src="{{ page.thumbnail }}" /></a>
+              <span class="caption">{{ page.wikiPageTitle }}</span>
+            </div> -->
+          {%- endfor -%}
+        </div>
+  </div>
+</div>
