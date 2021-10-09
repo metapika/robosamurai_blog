@@ -5,7 +5,7 @@ categories: characters, enemies
 
 name: Wasp
 alias: Not assigned
-thumbnail: imgs/wasp.png
+thumbnail: /imgs/wasp.png
 ---
 
 ## **Summary**

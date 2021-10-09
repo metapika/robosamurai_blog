@@ -5,7 +5,7 @@ categories: yes yes yes
 
 name: Nebula
 alias: Administration
-thumbnail: imgs/nebula.png
+thumbnail: /imgs/nebula.png
 ---
 
 ***nebula*** is the second game in the series, chronologically thought to be a sequel to Five Nights at Freddy's 4, and the prequel to Five Nights at Freddy's. The game takes place in November, 1987. Five Nights at Freddy's 2 was released on November 11, 2014, on Steam and Desura for $7.99. There is also a free demo on IndieDB. The game was supposed to be released sometime in 2015, as seen on a poster on Scott Cawthon's website, but it was changed due to problems in releasing the demo.
