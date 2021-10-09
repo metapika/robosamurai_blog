@@ -8,7 +8,7 @@ layout: page
           {%- for page in site.postCategories -%}
             <div class="box-container">
                 <div class="article-container">
-                      <a href="{{ site.baseurl }}{{ page.url }}"><img class="article-thumbnail" src="{{ site.baseurl }}{{ page.thumbnail }}" /></a>
+                      <a href="{{ page.url }}"><img class="article-thumbnail" src="{{ site.baseurl }}{{ page.thumbnail }}" /></a>
                       <span class="caption">{{ page.categoryName }}</span>
                 </div>
               <!-- <div class="box-container">

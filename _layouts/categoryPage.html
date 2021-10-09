@@ -20,7 +20,7 @@ layout: default
         {%- for page in site[page.catName] -%}
           <div class="box-container">
               <div class="article-container">
-                    <a href="{{ site.baseurl }}{{ page.url }}"><img class="article-thumbnail" src="{{ site.baseurl }}{{ page.thumbnail }}" /></a>
+                    <a href="{{ page.url }}"><img class="article-thumbnail" src="{{ site.url }}{{ site.baseurl }}{{ page.thumbnail }}" /></a>
                     <span class="caption">{{ page.name }}</span>
               </div>
             <!-- <div class="box-container">
