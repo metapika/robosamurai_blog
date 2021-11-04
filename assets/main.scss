@@ -8,19 +8,46 @@ $content-width: 1000px;
 
 @import "minima";
 
-.home {
-    // padding: 0em 6em;
-}
-
 .home-content {
     text-align: center;
-    padding: 2em 3em 0em;
+    padding: 0em 3em;
     margin: 0;
     font-size: 11pt;
 }
 
+.welcome-page-content {
+    margin: 0;
+    font-size: 13pt;
+    clear: both;
+    background-color: #00000083;
+    padding: 2em 0em 1em 1em;
+}
+
+.welcome .page-heading {
+    font-size: 50pt;
+    text-align: center;
+    padding: 3em 1em 3em 1em;
+}
+
+.welcome img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 300px;
+    margin:auto;
+}
+
+.welcome a {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
 .home-content h2 {
     font-size: 27pt;
+}
+.home-content a {
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 .downloadpage-content {
@@ -44,7 +71,7 @@ $content-width: 1000px;
 .article-thumbnail {
     max-height: 120px;
     max-width: 200px;
-    background: #252525;
+    background: #0e0e0e;
     border-radius: 2em;
 }
 
@@ -68,20 +95,27 @@ $content-width: 1000px;
     border-radius: 2em;
     margin: 30px 30px;
 }
+
 .home-box {
-    background: #333333;
+    background: #050014c7;
     padding: 2em 1em 2em 1em;
     border-radius: 2em;
     margin: 3em 0em;
 }
 
-.home-box .page-list-heading {
+.page-list-heading {
     text-align: center;
 }
 
+.home-box .latests-posts-box {
+    padding: 0em 2em 0em 2em;
+}
+
 body {
-    background: rgb(158,10,236);
-    background: linear-gradient(201deg, rgba(158,10,236,1) 0%, rgba(158,10,236,1) 0%, rgba(42,184,250,1) 100%); 
+    background: rgb(5,0,20);
+    background: linear-gradient(90deg, rgba(5,0,20,1) 0%, rgba(34,0,62,1) 50%, rgba(5,0,20,1) 100%); 
+    // background: rgb(158,10,236);
+    // background: linear-gradient(201deg, rgba(158,10,236,1) 0%, rgba(158,10,236,1) 0%, rgba(42,184,250,1) 100%); 
 }
 
 .categoryPage-title {
@@ -96,7 +130,7 @@ body {
 
 .wikiPage{
     clear: both;
-    background-color: rgba(51, 51, 51, 0.8);
+    background-color: #00000037;
     padding: 0em 0em 1em 1em;
 }
 
@@ -121,8 +155,24 @@ body {
     padding: 0em;
 }
 
+.post-meta {
+    color: white;
+}
+
 .site-title, .site-title:visited {
     color: #ddd;
+}
+
+.site-header {
+    border-top: 0px;
+}
+
+.footer-col-wrapper{
+    color: white;
+}
+
+.svg-icon {
+    fill: white;
 }
 
 a {
@@ -135,31 +185,3 @@ a:hover {
     text-decoration: none;
     // border-bottom: 1px solid 3rgba(255, 255, 255, 0.5);
 }
-// display: flex;
-// width: 100%;
-// height: 100%;
-// align-items: center;
-// justify-content: center;
-// flex-direction: row;
-// flex-wrap: wrap;
-
-// // display: flex;
-// // flex-flow: row wrap;
-// // justify-content: center;
-// // align-content: center;
-// // align-items: center;
-// // flex-grow: 1;
-// background: #252525;
-// border-radius: 2em;
-// text-align: center;
-
-// // display: flex;
-// // align-items: center;
-// // justify-content: center;
-// // position: relative;
-// // flex-flow: row wrap;
-// // flex-direction: row;
-// // align-content: center;
-// // flex-grow: 1;
-// // vertical-align: middle;
-// // padding: 1em;

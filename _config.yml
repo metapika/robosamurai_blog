@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:  RoboSamurai Blog/Wikia
+title:  RoboSamurai Wiki
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to the official RoboSamurai Blog/Wikia page
+  Welcome to the official RoboSamurai Wiki page
 baseurl: "robosamurai_blog"
 url: "https://metapika.github.io/"
 twitter_username: 
@@ -33,6 +33,9 @@ plugins:
   - jekyll-feed
 
 collections:
+  posts:
+      output: true
+
   postCategories:
       output: true
 

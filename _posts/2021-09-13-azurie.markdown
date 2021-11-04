@@ -1,9 +1,0 @@
----
-title:  "Azurie Incomporated"
-date:   2021-09-13 19:30 +0200
-categories: companies
-author: "Azurie via Nascent industries"
-permalink: "/lore/companies/:title"
----
-
-Azurie the blue companym, makes sodas
