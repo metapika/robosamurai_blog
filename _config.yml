@@ -51,6 +51,9 @@ collections:
   companies:
       output: true
 
+  game:
+      output: true
+
 collections_dir: collections
 
 defaults:

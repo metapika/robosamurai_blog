@@ -15,6 +15,9 @@ layout: default
       {%- endif -%}</p>
   </header>
 
+  {%- if page.blogCover -%}
+    <img class="blogCover" src="{{ site.url }}{{ site.baseurl }}{{ page.blogCover }}" />
+  {%- endif -%}
   <div class="welcome">
     <div class="welcome-page-content" itemprop="articleBody">
         {{ content }}
